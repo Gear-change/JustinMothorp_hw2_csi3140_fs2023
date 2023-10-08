@@ -102,10 +102,7 @@ p {
 }
 /*https://www.tutorialrepublic.com/faq/how-to-auto-resize-an-image-to-fit-into-a-div-container-using-css.php*/
 
- div > img {
-	align-self: center;
-	float:calc(100% / 2)
- }
+
 
 .adjustedimg{
 	margin: 0%;
@@ -114,14 +111,15 @@ p {
 	max-height: 40vh;
 	float: right;
 	min-height: 3cm;
-
+	align-self: center;
+	float:calc(100% / 2);
 }
 .parent {
 	width: 100vw, min-content;
-	height: min-content, 100vh;
+	height: 100vh;
 	display: grid;
-	grid-template-columns: repeat(8, 1fr), min-content;
-	grid-template-rows: repeat(4, 1fr), min-content;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: repeat(4, 1fr);
 	column-gap: 0px;
 	row-gap: 0px;
 	min-width: min-content;
