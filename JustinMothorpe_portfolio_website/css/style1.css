@@ -110,7 +110,7 @@ p {
 	float: right;
 	min-height: 3cm;
 	align-self:auto;
-	float:100vw;
+	float:100%;
 	max-width: 40vw;
 }
 
