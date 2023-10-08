@@ -37,7 +37,7 @@ other3: #31493C     darker other
 	--other2-color: #31493C; /*lighter other*/
 	--other3-color: #B3EFB2; /*darker other*/
 	--background-image: url("../img/Hero-section-bg-dark-Image.png");
-  }
+  } 
 * {
     border: 0;
     margin: 0;
