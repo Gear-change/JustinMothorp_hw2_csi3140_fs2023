@@ -7,10 +7,10 @@
     <link rel="icon" type="image/x-icon" href="img/gear-solid_(1).svg">
 </head>
 <body>
-    <p>this should redirect to the main page if not click: <a href='JustinMothorpe_portfolio_website/Index.html' lang="en">to main Index</a></p>
+    <p>this should redirect to the main page if not click: <a href='JustinMothorpe_portfolio_website/index.html' lang="en">to main Index</a></p>
 	<p>alternatively 
 ---
 config:
-  redirectTo: /JustinMothorpe_portfolio_website/Index.html
+  redirectTo: /JustinMothorpe_portfolio_website/index.html
 ---
 </body>
